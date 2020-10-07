@@ -185,6 +185,7 @@ h3{
    display: table-row;
 }
 .textcols-item {
+  font-family: 'Avenir Next';
   display: table-cell;  
   width: 50%;
   vertical-align: top;
