@@ -7,6 +7,9 @@
     font-weight: 400;
     font-style: normal;
   }
+body {
+  overflow-y: auto;
+}  
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -30,6 +33,7 @@ html {
 }
 .a1{text-decoration: none;}
 .menu {
+  position: relative;
   font-family: 'Copperplate-Light';
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,13 +44,13 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 720px;
+  max-width: auto;
+  padding-left: 20%;
+  padding-right: 20%;
   margin: 0px auto;
-  padding: 100px;
-  height: 20vh;
+  height: auto;
   list-style: none;
 }
-
 .menu .li {
   margin-right: 50px;
   width: 125px;
